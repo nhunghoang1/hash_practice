@@ -8,7 +8,7 @@ require_relative 'spec_helper'
 person = { name: 'Julia', age: 1, eye_colour: 'brown' }
 person2 = { hair_colour: 'brown', nappies: 'so so many' }
 
-merged_hash = {}
+merged_hash = person.merge(person2)
 
 # The specs to test the exercise
 RSpec.describe 'Merging hashes' do

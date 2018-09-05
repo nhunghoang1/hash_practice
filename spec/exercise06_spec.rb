@@ -11,6 +11,8 @@ require_relative 'spec_helper'
 # :baby = true
 
 person = {}
+person[:age] = 1
+person[:baby] = true
 
 
 # The specs to test the exercise

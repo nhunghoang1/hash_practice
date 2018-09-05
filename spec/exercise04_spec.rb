@@ -7,9 +7,9 @@ require_relative 'spec_helper'
 
 person = { "name" => "julia", 32 => 'nappies a day', true => 'why not'}
 
-key_name = ""
-key_32 = ""
-key_true = ""
+key_name = person["name"]
+key_32 = person[32]
+key_true = person[true]
 
 
 

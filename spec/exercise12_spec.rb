@@ -13,6 +13,9 @@ require_relative 'spec_helper'
 sale_item = { name: "Computer", cost: "$1,000", first_name: "Bob", age: 34 }
 values = []
 
+sale_item.each do |v|
+	values << v
+end
 # The specs to test the exercise
 RSpec.describe 'fetching all values' do
   it 'will have 4 items' do

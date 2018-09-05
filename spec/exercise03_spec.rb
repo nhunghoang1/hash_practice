@@ -7,8 +7,8 @@ require_relative 'spec_helper'
 
 person = { "name": "julia", 'baby': true }
 
-name = ""
-baby = ""
+name = person[:name]
+baby = person[:baby]
 
 
 # The specs to test the exercise

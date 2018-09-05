@@ -24,6 +24,10 @@ require_relative 'spec_helper'
 person = { name: 'Julia', age: 1, eye_colour: 'brown' }
 array = []
 
+person.each do |key, value|
+  array << "#{key}: #{value}"
+end
+
 
 # The specs to test the exercise
 RSpec.describe 'Iterating over hashes' do

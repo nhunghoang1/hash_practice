@@ -18,8 +18,8 @@ require_relative 'spec_helper'
 
 person = { name: 'julia', age: 1 }
 
-name = ""
-age = ""
+name = person[:name]
+age = person[:age]
 
 
 

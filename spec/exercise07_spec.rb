@@ -10,6 +10,8 @@ require_relative 'spec_helper'
 
 
 person = { name: 'Julia', age: 1, eye_colour: 'brown' }
+person.delete(:age)
+person.delete(:eye_colour)
 
 
 # The specs to test the exercise

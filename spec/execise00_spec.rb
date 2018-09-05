@@ -7,7 +7,7 @@ require_relative 'spec_helper'
 #
 # Make the below rspec expect statement true, by changing the variable on line 10 to true
 
-make_this_true = false
+make_this_true = true
 
 # The specs to test the exercise
 RSpec.describe 'True is True' do

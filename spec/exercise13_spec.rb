@@ -16,6 +16,14 @@ sale_item2 = { name: "Computer", sales_person: 'Emily', cost: "$1,500", first_na
 
 common_sales_items = {}
 
+sale_item1.each do |k1,v1|
+	sale_item2.each do |k2,v2|
+		if k1 == k2 && v1 ==v2
+			common_sales_items << :k1 => "v1"
+		end
+	end
+end
+
 
 
 # The specs to test the exercise

@@ -9,8 +9,8 @@ require_relative 'spec_helper'
 #
 # To pass this exercise, create two empty hashes using both ways of creating hashes
 
-initialize_using_class = nil
-initialize_using_shorthand = nil
+initialize_using_class = Hash.new
+initialize_using_shorthand = {}
 
 
 # The specs to test the exercise

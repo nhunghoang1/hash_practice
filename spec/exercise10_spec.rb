@@ -8,7 +8,7 @@ require_relative 'spec_helper'
 
 
 people = { bob: 31, john: 52, paul: 12, bailey: 2, sam: 36 }
-selected_people = {}
+selected_people = people.select {|k,v| v > 30}
 
 # The specs to test the exercise
 RSpec.describe 'Selecting People' do
